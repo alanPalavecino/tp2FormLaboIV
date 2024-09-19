@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>trabajo practico 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action=""  class="myForm">
+
+    <label for="nombre">Nombre</label>
+    <br>
+    <input type="text" placeholder="Ingrese su nombre..." id="nombre" >
+    <p id="nombreIncorrecto"></p>
+
+    <br>
+
+    <label for="apellido">Apellido</label>
+    <br>
+    <input type="text" placeholder="Ingrese su apellido.." id="apellido" >
+    <p id="apellidoIncorrecto"></p>
+
+    <br>
+    <br>
+
+    <label for="edad">Edad</label>
+    <br>
+    <input type="text" placeholder="ingrese su edad aqui.." id="edad">
+    <p id="edadIncorrecta"></p>
+
+    <br>
+    <br>
+
+    <label for="password">Contraseña</label>
+    <br>
+    <input type="password" id="password" >
+    <p id="passwordIncorrecta"></p>
+
+    <br>
+    <br>
+
+    <label for="email">Email</label>
+    <br>
+    <input type="text" placeholder="ingrese email aqui..." id="email">
+    <p id="emailIncorrecto"></p>
+
+    <br>
+    <br>
+    <button type="reset">LIMPIAR</button>
+
+   <!--  puse este boton en un ibput porqeu sino me salia el mensaje y rapidamente se salia
+     <button type="submit"  onclick="validForm()">ENVIAR</button> -->
+    <input type="button" name="submitBtn" id="submitBtn" value="Send form" onclick="validForm()">
+
+  <script src="script.js"></script>
+
+  </form>
+</body>
+
+</html>
